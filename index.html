@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdeaBox - Buat Kaos Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <!-- Navbar Section -->
+    <div id="home"></div>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">IdeaBox</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">Tentang Kami</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#order" class="navbar__links" id="order-page">Cara Order</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#login" class="button" id="login">Masuk</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero__container">
+            <h1 class="hero__heading">Bikin <span>kaos</span> gampang banget!</h1>
+            <p class="hero__description">Pesan satu kaos? ga masalah!</p>
+        </div>
+    </div>
+    
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"></div>
+            </div>
+            <div class="main__content">
+                <h1>Kamu Desain. Kami Cetak.</h1>
+                <h2>Kamu bisa desain dan pesan kaos sesukamu kapan aja dan dimana aja</h2>
+                <p>IdeaBox siap mencetak desain kaos kesukaanmu mulai dari satu kaos.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- How to Order Section -->
+    <div class="services" id="order">
+        <h1>Cara Order</h1>
+        <div class="services__wrapper">
+            <div class="services__card">
+                <i class="fas fa-tshirt" id="services__icon"></i>
+                <h2>Pilih Produk</h2>
+                <p>Kami memiliki beberapa produk yang dapat disesuaikan mulai dari kaos, hoodie, topi, dan masih banyak lagi.</p>
+            </div>
+            <div class="services__card">
+                <i class="fas fa-edit" id="services__icon"></i>
+                <h2>Buat Desain</h2>
+                <p>kamu dapat upload gambar atau mulai desain secara online. Bingung mau desain apa? tenang aja, tim kreatif kami akan membantumu dalam mendesain.</p>
+            </div>
+            <div class="services__card" >
+                <i class="fas fa-shopping-cart" id="services__icon"></i>
+                <h2>Proses Order</h2>
+                <p>Setelah desain kamu selesai, kamu bisa langsung order dengan mudah.</p>
+            </div>
+            <div class="services__card">
+                <i class="fas fa-truck" id="services__icon"></i>
+                <h2>Pengiriman</h2>
+                <p>setelah kamu sudah melakukan pembayaran, tinggal duduk manis deh nunggu kaos kamu bakal dianter kerumahmu. Tenang aja, kami memberikan garansi cetak ulang jika ada cacat produksi.</p>
+            </div>
+        </div>
+        <button class="main__btn"><a href="#">Pesan Sekarang</a></button>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Tentang Kami</h2>
+                    <a href="#">FAQ</a>
+                    <a href="#">Testimonial</a>
+                    <a href="#">Karir</a>
+                    <a href="#">Ketentuan Pengguna</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Info Kontak</h2>
+                    <a href="#">Whatsapp</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Support</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Lacak Pengiriman</h2>
+                    <a href="#" class="button__order" id="Lacak"><i class="fas fa-crosshairs"></i>Lacak Kiriman</a>
+                </div>
+            </div>   
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="#" id="footer__logo">IdeaBox</a>
+                </div>
+                <p class="website__rights">© 2021 PT Gravitasi Kreatif. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="#" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
